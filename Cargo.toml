@@ -2,7 +2,7 @@
 name = "rust-tutorial-for-typescript"
 version = "0.1.0"
 edition = "2021"
-authors = ["Rust Tutorial Team"]
+authors = ["JOJO Techs <jojotechs1@outlook.com>"]
 description = "A comprehensive Rust learning guide for TypeScript developers"
 license = "MIT"
 repository = "https://github.com/your-username/rust-tutorial-for-typescript"
