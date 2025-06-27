@@ -1,0 +1,57 @@
+[package]
+name = "rust-tutorial-for-typescript"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rust Tutorial Team"]
+description = "A comprehensive Rust learning guide for TypeScript developers"
+license = "MIT"
+repository = "https://github.com/your-username/rust-tutorial-for-typescript"
+
+[dependencies]
+# 基础依赖
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# 用于后续高级课程的依赖（可选）
+tokio = { version = "1.0", features = ["full"], optional = true }
+reqwest = { version = "0.11", features = ["json"], optional = true }
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "chrono", "uuid"], optional = true }
+
+[features]
+# 特性标志，用于控制可选依赖
+async = ["tokio", "reqwest"]
+database = ["sqlx"]
+full = ["async", "database"]
+
+# 开发时的依赖
+[dev-dependencies]
+criterion = "0.5"
+
+# 示例程序配置
+[[example]]
+name = "variables_constants"
+path = "basic/variables-constants/demo.rs"
+
+[[example]]
+name = "data_types"
+path = "basic/data-types/demo.rs"
+
+[[example]]
+name = "ownership_borrowing"
+path = "basic/ownership-borrowing/demo.rs"
+
+[[example]]
+name = "functions"
+path = "basic/functions/demo.rs"
+
+[[example]]
+name = "pattern_matching"
+path = "basic/pattern-matching/demo.rs"
+
+[[example]]
+name = "error_handling"
+path = "basic/error-handling/demo.rs"
+
+[[example]]
+name = "loops_iterators"
+path = "basic/loops-iterators/demo.rs" 

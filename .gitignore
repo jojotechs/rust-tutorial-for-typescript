@@ -1,0 +1,43 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+demo
+basic/*/demo
+
+# Local configuration
+.env
+.env.local
+
+# Documentation build
+/docs/_build/
+/docs/site/
+
+# Temporary files
+*.tmp
+*.temp 
