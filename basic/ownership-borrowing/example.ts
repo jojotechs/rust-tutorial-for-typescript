@@ -1,7 +1,7 @@
 // TypeScript 中的内存管理和引用示例
 // 帮助理解 JavaScript/TypeScript 的内存管理方式
-
 export {}
+
 // 1. 引用类型和值类型
 let primitiveValue: number = 42;
 let anotherPrimitive: number = primitiveValue; // 复制值

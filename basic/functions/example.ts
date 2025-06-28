@@ -1,5 +1,6 @@
 // TypeScript 中的函数示例
 // 展示函数定义、参数、返回值和高阶函数
+export {}
 
 // 1. 基本函数定义
 function greet(name: string): string {

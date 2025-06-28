@@ -1,5 +1,6 @@
 // TypeScript 中的错误处理示例
 // 展示 try/catch、Promise、自定义错误等处理方式
+export {}
 
 // 1. 基本错误处理
 function divide(a: number, b: number): number {

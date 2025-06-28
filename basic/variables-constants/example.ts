@@ -1,5 +1,6 @@
 // TypeScript 中的变量和常量示例
 // 帮助你理解 TypeScript 的变量声明方式
+export {}
 
 // 1. 基本变量声明
 let userName: string = "Alice";

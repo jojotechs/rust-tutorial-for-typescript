@@ -1,5 +1,6 @@
 // TypeScript 中的循环和迭代器示例
 // 展示各种循环方式和数组方法
+export {}
 
 // 1. 基本 for 循环
 function basicForLoop(): void {

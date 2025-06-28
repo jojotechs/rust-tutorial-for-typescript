@@ -1,5 +1,6 @@
 // TypeScript 中的模式匹配示例
 // 使用 switch、联合类型和类型守卫模拟模式匹配
+export {}
 
 // 1. 基本 switch 语句
 function processNumber(value: number): string {
